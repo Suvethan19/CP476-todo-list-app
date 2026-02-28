@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+/* main layout */
+body {
+  margin: 0;
+  font-family: 'Anonymous Pro';
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: 100vh;
+  background-color: #FCF1E8;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+/* sidebar */
+aside {
+  padding: 20px;
+  background-color: #F9E1D0;
+}
+
+aside h1 {
+  margin-bottom: 3rem;
+}
+
+aside a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+aside a[href="index.html"]{
+  font-size: 1.1rem;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+#listsNav > div {
+  margin: 18px 0;
+}
+
+aside a[href="add-list.html"] {
+  color: #E37322;
+  font-size: 1rem;
+}
+
+/* new task "button" */
+#addTaskLink {
+  color: #E37322;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#addTaskLink:hover {
+  text-decoration: underline;
+}
