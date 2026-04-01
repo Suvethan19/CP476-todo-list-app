@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+/* main layout */
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Anonymous Pro';
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+  background-color: #FCF1E8;
+}
+
+main {
+  padding: 40px 48px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+/* sidebar */
+aside {
+  padding: 28px 24px;
+  background-color: #F9E1D0;
+}
+
+aside h1 {
+  margin-bottom: 3.2rem;
+  font-size: 2.1rem;
+  line-height: 1.1;
+}
+
+aside a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+aside a[href="index.html"] {
+  font-size: 1.15rem;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+#listsNav > div {
+  margin: 18px 0;
+}
+
+aside a[href="add-list.html"] {
+  color: #E37322;
+  font-size: 1.1rem;
+}
+
+/* add list/task forms */
+form {
+  max-width: 420px;
+}
+
+form a,
+form a:visited {
+  margin-left: 12px;
+  color: #111;
+  text-decoration: underline;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 1rem;
+  border: 1px solid #999;
+  background-color: #fffdfb;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  accent-color: #111;
+  transform: scale(1.05);
+  margin-right: 8px;
+}
+
+button,
+input[type="submit"] {
+  font: inherit;
+  font-size: 1rem;
+  padding: 8px 14px;
+  border: 1px solid #999;
+  background-color: #fffdfb;
+  cursor: pointer;
+  color: #E37322;
+}
+
+/* new task "button" */
+#addTaskLink {
+  color: #E37322;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+#addTaskLink:hover {
+  text-decoration: underline;
+}
+
+.nav-item-row {
+  display: flex;
+  justify-content: space-between; /* key line */
+  align-items: center;
+}
+
+.task-row {
+  margin-bottom: 14px;
+}
+
+.task-row span {
+  margin-left: 6px;
+  font-size: 1.05rem;
+}
+
+.text-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  color: #111;
+  text-decoration: underline;
+}
+
+.text-btn:hover {
+  color: #E37322;
+}
+
