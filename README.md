@@ -34,8 +34,8 @@ Project currently in **Milestone 03 – Full-Stack Integration, Testing Report, 
 
 1. Clone the repository
   ```{bash}
-  git clone <your-repo-url> 
-  cd todo-list-app
+  git clone https://github.com/Suvethan19/CP476-todo-list-app.git
+  cd CP476-todo-list-app
   ```
 
 2. Install dependencies
@@ -66,8 +66,7 @@ Project currently in **Milestone 03 – Full-Stack Integration, Testing Report, 
   npm start
   ```
 
-  Go to:
-  http://localhost:3000
+  Open your browser and go to:  http://localhost:3000
   
 ## Team Member Contributions Summary
 Deliverables:
