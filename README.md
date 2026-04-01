@@ -28,38 +28,47 @@ This repository will contain:
 - Documentation and reports
 
 ## Status
-Project currently in **Milestone 02 – Front-End Implementation & Database Design**
+Project currently in **Milestone 03 – Full-Stack Integration, Testing Report, Final Demo & Presentation**
 
-## How to Run Front End
-- Download and extract the entire todo-list-frontend folder
-- Run index.html
+## Setup
 
-## Running the Back-End (Milestone 2)
+1. Clone the repository
+  ```{bash}
+  git clone <your-repo-url> 
+  cd todo-list-app
+  ```
 
-### Prerequisites
-- Node.js (LTS version)
-- npm (comes with Node.js)
+2. Install dependencies
+  ```{bash}
+  npm install
+  ```
 
-### Steps to Run the Server
-  1. Clone the repository:
-     ```bash
-     git clone https://github.com/Suvethan19/CP476-Project.git
-     
-  2. Navigate to the backend folder:
-       cd CP476-Project/backend
+3. Open MySQL Workbench
+
+4. In MySQL Workbench, run the provided SQL script located in the `database` folder to create the database and tables:
+- todo_list_db
+- users
+- lists
+- tasks
+
+5. Create a `.env` file in the root directory and paste the following:
+  ```{bash}
+  DB_HOST=localhost
+  DB_USER=root
+  DB_PASSWORD=YOUR_PASSWORD_HERE
+  ```
+  Replace `YOUR_PASSWORD_HERE` with your MySQL password.
+
+  If you have a different MySQL Host and Username, replace `localhost` and `root`.
+
+6. Run the server
+  ```{bash}
+  npm start
+  ```
+
+  Go to:
+  http://localhost:3000
   
-  3. Install dependencies:
-       npm install
-  
-  4. Start the server:
-       npm start
-  
-  5. Open a browser and go to:
-       http://localhost:3000
-  
-  6. You should see the message:
-       CP476 To-Do App Backend is running
-
 ## Team Member Contributions Summary
 Deliverables:
 - Marc, Maathusan: Front-end development and UI workflow
