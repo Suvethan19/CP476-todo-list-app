@@ -45,7 +45,7 @@ Project currently in **Milestone 03 – Full-Stack Integration, Testing Report, 
 
 3. Open MySQL Workbench
 
-4. In MySQL Workbench, run the provided SQL script located in the `database` folder to create the database and tables:
+4. In MySQL Workbench, import and run the `create_db.sql` script located in the `database` folder to create the database and tables:
 - todo_list_db
 - users
 - lists
