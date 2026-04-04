@@ -10,7 +10,9 @@ exports.getAllTasks = (req, res) => {
     sql += " WHERE list_id = ?";
     values.push(list_id);
   }
-
+  
+  sql += " ORDER BY due_date IS NULL, due_date ASC, task_id ASC";
+  
   db.query(sql, values, (err, results) => {
     if (err) {
       console.error("Error fetching tasks:", err.message);
