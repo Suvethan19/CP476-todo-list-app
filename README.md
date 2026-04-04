@@ -71,5 +71,5 @@ Project currently in **Milestone 03 – Full-Stack Integration, Testing Report, 
 ## Team Member Contributions Summary
 Deliverables:
 - Marc, Maathusan: Front-end development and UI workflow
-- Marc: Database design and SQL schema
+- Marc: Database design, Frontend Development, Fullstack Integration
 - Suvethan: Back-end setup, server configuration, GitHub management, Kanban board updates, and documentation
