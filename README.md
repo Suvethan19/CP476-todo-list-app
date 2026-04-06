@@ -30,6 +30,10 @@ This repository will contain:
 ## Status
 Project currently in **Milestone 03 – Full-Stack Integration, Testing Report, Final Demo & Presentation**
 
+## Tools Needed
+1. Node.js
+2. MySQL Server and Workbench
+
 ## Setup
 
 1. Clone the repository
