@@ -44,6 +44,7 @@ Project currently in **Milestone 03 – Full-Stack Integration, Testing Report, 
 
 2. Install dependencies
   ```{bash}
+  cd CP476-todo-list-app
   npm install
   ```
 
